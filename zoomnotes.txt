@@ -1,0 +1,16 @@
+ASP.NET Web Application (.NET Framework)
+
+tadi asp.net web app nya pilih yg mana ya? web api bukan? IYA
+
+web form tadi include juga ya (ceklis)? TIDAK
+
+Areas > Helppage >view > >help
+
+Api.cshtml
+
+@Html.DisplayForModel("TestClientDialogs")  
+@section Scripts {  
+    <link type="text/css" href="~/Areas/HelpPage/HelpPage.css" rel="stylesheet" />  
+    @Html.DisplayForModel("TestClientReferences")
+
+https://www.c-sharpcorner.com/UploadFile/2b481f/adding-the-test-api-in-the-Asp-Net-web-api-help-page/
